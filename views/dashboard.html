@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Grocery Flow: Inventory Management</title>
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=BBH+Bartle&family=Chicle&family=Gasoek+One&family=Gugi&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Momo+Trust+Display&family=Monoton&display=swap" rel="stylesheet">
+
   </head>
 
   <body>
@@ -25,46 +30,46 @@
             <li>
               <a
                 href="#features"
-                class="text-gray-700 hover:text-indigo-600 transition"
+                class="inline-block text-gray-700 hover:text-indigo-600 transition-all duration-300 ease-out hover:scale-105"
                 >Features</a
               >
             </li>
             <li>
               <a
                 href="#howitworks"
-                class="text-gray-700 hover:text-indigo-600 transition"
+                class="inline-block text-gray-700 hover:text-indigo-600 transition-all duration-300 ease-out hover:scale-105"
                 >Soutions</a
               >
             </li>
             <li>
               <a
                 href="#pricing"
-                class="text-gray-700 hover:text-indigo-600 transition"
+                class="inline-block text-gray-700 hover:text-indigo-600 transition-all duration-300 ease-out hover:scale-105"
                 >Pricing</a
               >
             </li>
             <li>
               <a
                 href="#about"
-                class="text-gray-700 hover:text-indigo-600 transition"
+                class="inline-block text-gray-700 hover:text-indigo-600 transition-all duration-300 ease-out hover:scale-105"
                 >About</a
               >
             </li>
             <li>
               <a
                 href="#contact"
-                class="text-gray-700 hover:text-indigo-600 transition"
+                class="inline-block text-gray-700 hover:text-indigo-600 transition-all duration-300 ease-out hover:scale-105"
                 >Contact</a
               >
             </li>
           </ul>
 
           <div class="">
-            <a href="#" class="mr-6 hover:text-indigo-600 transition">
-              Login
+            <a href="register.html" class="mr-6 hover:text-indigo-600 transition">
+              Register
             </a>
             <a
-              href="#"
+              href="login.html"
               class="bg-indigo-600 text-white px-5 py-2 rounded-lg hover:bg-indigo-700 transition"
             >
               Start Managing Store
@@ -74,32 +79,33 @@
       </nav>
     </div>
 
-    <section >
+    <section class="relative overflow-hidden bg-gradient-to-br from-white via-blue-50 to-indigo-100 scroll-mt-20">
       <div class="flex justify-between">
         <div
         class="flex flex-col justify-center items-start ml-20 mt-20 p-8 gap-4"
         >
-        <h1 class="text-5xl tracking-wide font-bold">
-          Manage Your <br /><span class="">Grocery Store</span> with<br />
-          Confidence
+        <h1 style="font-family: Alan Sans;" class="w-[500px] text-5xl tracking-wide font-bold leading-[1.5]">
+          Manage Your Grocery Store with
+          <span style="font-family:'Momo Trust Display';" class="text-6xl font-bold bg-gradient-to-r from-blue-600 to-cyan-400 bg-clip-text text-transparent">Confidence</span>
         </h1>
-        <p class="text-lg leading-relaxed tracking-wide">
-          Track inventory, monitor stock, manage employees, record sales,
-          <br />and make smarter business decisions—all from one modern
-          <br />dashboard.
+        <p class="w-[550px] text-lg text-gray-500 leading-8" style="font-family: Alan Sans;">
+          Track inventory, monitor stock, manage employees, record sales, and make
+          smarter business decisions—all from one modern <br/>
+          dashboard.
         </p>
-        <button
-        class="bg-indigo-600 text-white px-5 py-2 rounded-lg hover:bg-indigo-700 transition"
+        <button onclick="window.location.href='login.html'"
+        class="bg-indigo-600 text-white px-5 py-2 rounded-lg hover:bg-indigo-700 transition transition-transform duration-300 ease-out
+         hover:scale-105" 
         >
           Start Managing Store →
         </button>
       </div>
     
-      <div class="w-1/2 h-96 mt-20 mr-20 rounded-lg">
+      <div class="w-[520px] h-96 mt-24  rounded-lg">
         <img
-        src="../assets/grocery-store.png"
+        src="../assets/grocery-store4.png"
         alt="Grocery Store"
-        class="object-cover rounded-lg w-96 h-96 ml-72"
+        class="object-cover w-96 h-96 ml-84 relative z-10 "
         />
       </div>
   </div>
